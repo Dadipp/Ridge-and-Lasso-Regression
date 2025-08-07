@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("e:/VScode/HANDSON_32B/my_portfolio/Regression/data/boston.csv")
+    df = pd.read_csv("data/boston.csv")
     return df
 
 st.title("🏘️ Ridge & Lasso Regression on Boston Housing Dataset")
